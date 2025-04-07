@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 =======
-<Hotels xmlns="http://venus.sod.asu.edu/WSRepository/xml"
+<Hotels 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://fullmoonemptysun.github.io/hotel-xml-assignment/Hotels.xsd">
+        xsi:schemaLocation="https://fullmoonemptysun.github.io/xml-hotels/Hotels.xsd">
 
   <Hotel Rating="4.2">
     <Name>Westin</Name>
