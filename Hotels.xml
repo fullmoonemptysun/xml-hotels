@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Holiday Inn</Name>
+    <Phone>480-111-2233</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>45</Number>
+      <Street>Sunset Blvd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85020</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.8">
+    <Name>Marriott</Name>
+    <Phone>480-555-0101</Phone>
+    <Phone>800-555-1212</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>250</Number>
+      <Street>North Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Hyatt Regency</Name>
+    <Phone>602-333-1234</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>122</Number>
+      <Street>East Washington St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85034</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.6">
+    <Name>Sheraton</Name>
+    <Phone>480-789-4561</Phone>
+    <Phone>800-789-4561</Phone>
+    <Address NearestAirport="Phoenix-Mesa Gateway">
+      <Number>180</Number>
+      <Street>W Broadway Rd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85210</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Embassy Suites</Name>
+    <Phone>602-400-2020</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>151</Number>
+      <Street>South Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.1">
+    <Name>Best Western</Name>
+    <Phone>623-555-9090</Phone>
+    <Address NearestAirport="Deer Valley Airport">
+      <Number>98</Number>
+      <Street>Bell Rd</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85308</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.9">
+    <Name>Fairfield Inn</Name>
+    <Phone>480-222-3333</Phone>
+    <Phone>888-222-3333</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>340</Number>
+      <Street>North Scottsdale Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Comfort Inn</Name>
+    <Phone>480-000-1234</Phone>
+    <Address NearestAirport="Falcon Field Airport">
+      <Number>145</Number>
+      <Street>Main Street</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85203</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.5">
+    <Name>Radisson</Name>
+    <Phone>602-888-8765</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>360</Number>
+      <Street>West Van Buren St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85003</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>DoubleTree by Hilton</Name>
+    <Phone>480-555-8765</Phone>
+    <Phone>800-555-8765</Phone>
+    <Address NearestAirport="Mesa Gateway">
+      <Number>270</Number>
+      <Street>North Power Rd</Street>
+      <City>Gilbert</City>
+      <State>AZ</State>
+      <Zip>85234</Zip>
+    </Address>
+  </Hotel>
+
+</Hotels>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel>
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    <!-- Missing </Address> -->
+  </Hotel>
+  <Hotel>
+    <Name>Holiday Inn</Name>
+    <Address NearestAirport="Sky Harbor">
+      <Number>45</Number>
+      <Street>Sunset Blvd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85020</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.9">
+    <Name>Hilton</Name>
+    <Name>DoubleTree</Name>
+    <Phone>480-123-4567</Phone>
+    <Address NearestAirport="Mesa Gateway">
+      <Number>222</Number>
+      <Street>South Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+</Hotel>
