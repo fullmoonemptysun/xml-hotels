@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema 
-    targetNamespace="http://venus.sod.asu.edu/WSRepository/xml" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
     elementFormDefault="qualified" 
     attributeFormDefault="unqualified">
@@ -22,7 +21,7 @@
   <xsd:complexType name="HotelType">
     <xsd:sequence>
       <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-      <xsd:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
+      <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
       <xsd:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
     </xsd:sequence>
     <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
@@ -38,14 +37,5 @@
     </xsd:sequence>
     <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
   </xsd:complexType>
-
-  <!--
-    Define the allowed format for the Phone number with a regular exp. 
-  -->
-  <xsd:simpleType name="PhoneType">
-    <xsd:restriction base="xsd:string">
-      <xsd:pattern value="\d{3}-\d{3} \d{4}"/>
-    </xsd:restriction>
-  </xsd:simpleType>
 
 </xsd:schema>
