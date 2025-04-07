@@ -1,37 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel>
+
+<!-- Error #1: Wrong root tag. Should be <Hotels>, not <Hotel> -->
+<Hotel 
+    xmlns="http://hehe.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://fullmoonemptysun.github.io/xml-hotels/Hotels.xsd">
+
+  <!-- This one is fine -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address>
+    <Address NearestAirport="Sky Habor">
       <Number>11</Number>
-      <Street>E.7th St</Street>
+      <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-    <!-- Missing </Address> -->
+    </Address>
   </Hotel>
+
+  <!-- Error #2: Missing the required 'NearestAirport' attribute in Address -->
   <Hotel>
-    <Name>Holiday Inn</Name>
-    <Address NearestAirport="Sky Harbor">
-      <Number>45</Number>
+    <Name>Crimson Valley Inn</Name>
+    <Phone>602-555-1234</Phone>
+    <Address>
+      <Number>201</Number>
       <Street>Sunset Blvd</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85020</Zip>
+      <Zip>85004</Zip>
     </Address>
   </Hotel>
+
+  <!-- Error #3: Missing a Phone number here -->
   <Hotel Rating="3.9">
-    <Name>Hilton</Name>
-    <Name>DoubleTree</Name>
-    <Phone>480-123-4567</Phone>
-    <Address NearestAirport="Mesa Gateway">
-      <Number>222</Number>
-      <Street>South Ave</Street>
+    <Name>Moonstone Suites</Name>
+    <!-- Only one phone, schema allows multiple, but let's assume we expect at least 2 here -->
+    <Phone>602-222-1122</Phone>
+    <Address NearestAirport="Sky Habor">
+      <Number>501</Number>
+      <Street>Lunar Ave</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error #4: Forgot to close the Address tag -->
+  <Hotel Rating="4.8">
+    <Name>Celestial Stay</Name>
+    <Phone>480-333-4444</Phone>
+    <Address NearestAirport="Sky Habor">
+      <Number>10</Number>
+      <Street>Galaxy Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85282</Zip>
+    <!-- Whoops, no closing </Address> here -->
+  </Hotel>
+
+  <!-- Error #5: Two Name tags, only one is allowed -->
+  <Hotel>
+    <Name>Twilight Retreat</Name>
+    <Name>Shouldn’t be here</Name>
+    <Phone>480-999-1010</Phone>
+    <Address NearestAirport="Mesa Gateway">
+      <Number>95</Number>
+      <Street>Dawn St</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85201</Zip>
     </Address>
   </Hotel>
+
 </Hotel>
