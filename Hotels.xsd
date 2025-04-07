@@ -3,11 +3,11 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
     >
 
-  <xsd:annotation>
+  <!-- <xsd:annotation>
     <xsd:documentation xml:lang="en">
       Distributed Software Development Course - Hotels Schema
     </xsd:documentation>
-  </xsd:annotation>
+  </xsd:annotation> -->
 
   <xsd:element name="Hotels" type="HotelsType"/>
 
